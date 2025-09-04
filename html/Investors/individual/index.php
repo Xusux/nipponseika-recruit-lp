@@ -13,6 +13,7 @@
     <!-- Main -->
     <main class="w-full mx-auto">
         <?php include 'section4.php' ?>
+        <?php include 'section5.php' ?>
 
     </main>
 
