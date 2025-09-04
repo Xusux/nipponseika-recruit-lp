@@ -36,9 +36,9 @@ $data = [
 ?>
 
 
-<section id="section" class="relative z-0 w-full mx-auto bg-no-repeat bg-cover"
+<section id="section4" class="relative z-0 w-full mx-auto bg-no-repeat bg-cover"
          style="background-image: url('img/session4/bg.webp')">
-    <div class="max-w-[972px] mx-auto px-5">
+    <div class="max-w-[972px] mx-auto px-5 lg:px-0">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-6 lg:gap-7 py-32">
             <!-- Beauty Care Card-->
             <?php foreach ($data as $item) : ?>
