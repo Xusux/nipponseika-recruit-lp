@@ -595,6 +595,10 @@ video {
   height: 0.5rem;
 }
 
+.h-\[90px\] {
+  height: 90px;
+}
+
 .w-\[11px\] {
   width: 11px;
 }
@@ -812,6 +816,11 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .xs\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -821,6 +830,10 @@ video {
 
   .md\:h-\[90px\] {
     height: 90px;
+  }
+
+  .md\:h-\[91px\] {
+    height: 91px;
   }
 
   .md\:grid-cols-2 {
