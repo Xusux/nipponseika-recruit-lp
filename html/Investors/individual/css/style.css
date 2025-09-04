@@ -595,10 +595,6 @@ video {
   height: 0.5rem;
 }
 
-.h-\[90px\] {
-  height: 90px;
-}
-
 .w-\[11px\] {
   width: 11px;
 }
@@ -807,31 +803,18 @@ video {
 }
 
 @media (min-width: 576px) {
-  .xs\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .xs\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .xs\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .xs\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
 }
 
 @media (min-width: 768px) {
-  .md\:mb-2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .md\:h-\[90px\] {
-    height: 90px;
-  }
-
   .md\:h-\[91px\] {
     height: 91px;
   }
