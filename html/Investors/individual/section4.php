@@ -54,7 +54,7 @@ $data = [
                     </div>
                     <div class="py-4">
                         <h3 class="font-bold text-[19px] xs:text-xl mb-2"><?php echo htmlspecialchars($item['title']); ?></h3>
-                        <p class="md:h-[90px] text-sm xs:text-lg mb-4 md:mb-2 leading-relaxed tracking-widest">
+                        <p class="md:h-[91px] text-sm xs:text-base mb-4 leading-relaxed tracking-widest">
                             <?php echo htmlspecialchars($item['desc']); ?>
                         </p>
                         <button class="flex justify-center items-center bg-blue-850 hover:scale-105 text-white
