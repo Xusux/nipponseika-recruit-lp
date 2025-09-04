@@ -1,0 +1,18 @@
+{
+  "name": "nipponseika-recruit-lp",
+  "version": "1.0.0",
+  "description": "nipponseika recruit landing page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./html/investors/individual/css/input.css -o ./html/investors/individual/css/style.css --watch",
+    "build": "tailwindcss -i ./html/investors/individual/css/input.css -o ./html/investors/individual/css/style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "3.4.13",
+    "postcss": "^8.5.6",
+    "autoprefixer": "^10.4.21"
+  }
+}
