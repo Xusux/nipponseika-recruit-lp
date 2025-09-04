@@ -12,7 +12,7 @@
 <body class="bg-gray-100 text-gray-800">
     <!-- Main -->
     <main class="w-full mx-auto">
-        <?php include 'session4.php' ?>
+        <?php include 'section4.php' ?>
 
     </main>
 
