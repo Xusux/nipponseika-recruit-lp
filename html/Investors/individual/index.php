@@ -10,16 +10,10 @@
 </head>
 
 <body class="bg-gray-100 text-gray-800">
-
-
     <!-- Main -->
-    <main class="max-w-6xl mx-auto p-6">
-        <h2 class="text-2xl font-semibold mb-4">Chào mừng!</h2>
-        <p class="mb-6">Đây là trang thử nghiệm PHP + TailwindCSS v3. Nếu bạn thấy layout này có style → tức là Tailwind đang hoạt động.</p>
+    <main class="w-full mx-auto">
+        <?php include 'session4.php' ?>
 
-        <button class="px-6 py-2 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700">
-            Apply Now
-        </button>
     </main>
 
 
