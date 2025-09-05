@@ -21,6 +21,7 @@ function asset($path)
         <?php include 'section1.php' ?>
         <?php include 'section4.php' ?>
         <?php include 'section5.php' ?>
+        <?php include 'section6.php' ?>
 
     </main>
 

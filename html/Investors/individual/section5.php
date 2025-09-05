@@ -1,8 +1,8 @@
-<section id="section5" class="relative z-0 w-full mx-auto bg-[#EDF8FF] py-[78px]">
+<section id="section5" class="relative z-0 max-w-[1920px] mx-auto bg-[#EDF8FF] py-[78px]">
     <div class="max-w-[972px] mx-auto px-5 lg:px-0">
         <div class="mb-[58px] flex flex-col justify-center items-center">
             <img src="images/section5/img01.webp" alt="日本精化の株主になると" class="aspect-[588/82] w-full max-w-[588px] object-cover">
-            <p class="text-base mt-[29px]">
+            <p class="text-base text-center mt-[29px]">
                 日本精化では、株主の皆様との長期的な信頼関係を大切にしています。事業の安定的な成長を通じて、着実な利益還元をお約束します。</p>
         </div>
         <div class="flex justify-between items-start max-w-[822px] gap-x-[111px] mx-auto">
