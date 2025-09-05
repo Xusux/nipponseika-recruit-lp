@@ -43,7 +43,7 @@ $data = [
             <!-- Beauty Care Card-->
             <?php foreach ($data as $item) : ?>
                 <div class="bg-white rounded-2xl border-2 hover:border-blue-850 overflow-hidden shadow-sm transition
-                    p-4 duration-700 ease-in-out hover:scale-[1.02] cursor-pointer ">
+                    p-4 duration-700 ease-in-out hover:scale-[1.02] cursor-pointer">
                     <div class="relative">
                         <img src="<?php echo htmlspecialchars($item['image']); ?>"
                              alt="<?php echo htmlspecialchars($item['alt']); ?>"
