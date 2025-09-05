@@ -1,7 +1,7 @@
 <section id="section5" class="relative z-0 w-full mx-auto bg-[#EDF8FF] py-[78px]">
     <div class="max-w-[972px] mx-auto px-5 lg:px-0">
         <div class="mb-[58px] flex flex-col justify-center items-center">
-            <img src="img/section5/img01.webp" alt="日本精化の株主になると" class="aspect-[588/82] w-full max-w-[588px] object-cover">
+            <img src="images/section5/img01.webp" alt="日本精化の株主になると" class="aspect-[588/82] w-full max-w-[588px] object-cover">
             <p class="text-base mt-[29px]">
                 日本精化では、株主の皆様との長期的な信頼関係を大切にしています。事業の安定的な成長を通じて、着実な利益還元をお約束します。</p>
         </div>
@@ -10,7 +10,7 @@
             <div class="max-w-[353px] flex flex-col  items-center tracking-widest">
                 <p class="text-blue-750 font-bold text-4xl">配当金<span class="text-2xl">を</span></p>
                 <p class="text-blue-750 font-bold text-2xl">受け取ることができます</p>
-                <img src="img/section5/img02.webp" alt="受け取ることができます"
+                <img src="images/section5/img02.webp" alt="受け取ることができます"
                      class="my-6 aspect-[106/109] max-w-[106px] object-cover">
                 <p class="text-base">
                     中間と期末の年2回、配当金を受け取ることができます。当社は、
@@ -22,7 +22,7 @@
             <div class="max-w-[353px] flex flex-col items-center tracking-widest">
                 <p class="text-blue-750 font-bold text-4xl">株主優待<span class="text-2xl">を</span></p>
                 <p class="text-blue-750 font-bold text-2xl">受け取ることができます</p>
-                <img src="img/section5/img03.webp" alt="受け取ることができます"
+                <img src="images/section5/img03.webp" alt="受け取ることができます"
                      class="my-6 aspect-[106/109] max-w-[106px] object-cover">
                 <p class="text-base">
                     <span class="font-bold">年1回、毎年3月末</span>
@@ -37,7 +37,7 @@
                             py-[15px] px-[41px] rounded-full text-lg font-bold transition-colors">
                配当・株主優待情報の詳細はこちら
                <span class="ml-1.5">
-                            <img src="img/icon/arrow-right.svg" alt="Arrow right" class="w-[11px] h-2 object-contain"/>
+                            <img src="images/icon/arrow-right.svg" alt="Arrow right" class="w-[11px] h-2 object-contain"/>
                         </span>
            </button>
        </div>

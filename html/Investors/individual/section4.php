@@ -1,7 +1,7 @@
 <?php
 $data = [
     [
-        "image" => "img/session4/img01.webp",
+        "image" => "images/section4/img01.webp",
         "alt" => "ビューティケア分野 ( Beauty care )",
         "label" => "ビューティケア分野（Beauty care）",
         "bg-label" => "#EB6898",
@@ -9,7 +9,7 @@ $data = [
         "desc" => "リン脂質素材・機能性油剤・生理活性物質の3素材を提供しております。いろんな化粧品の中に、日本精化の製品は使われています。きっとあなたも使ったことがや触れたことがあるはずです。"
     ],
     [
-        "image" => "img/session4/img02.webp",
+        "image" => "images/section4/img02.webp",
         "alt" => "ヘルスケア分野 ( Healthcare )",
         "label" => "ヘルスケア分野 ( Healthcare )",
         "bg-label" => "#1EA4DE",
@@ -17,7 +17,7 @@ $data = [
         "desc" => "医薬用の素材やサービスを提供しております。\n 健康を支える多くの製品に、日本精化の製品やサービスが使われています。"
     ],
     [
-        "image" => "img/session4/img03.webp",
+        "image" => "images/section4/img03.webp",
         "alt" => "ファインケミカル分野 ( Fine chemicals )",
         "label" => "ファインケミカル分野 ( Fine chemicals )",
         "bg-label" => "#1AA64E",
@@ -25,7 +25,7 @@ $data = [
         "desc" => "コーティング剤やエレクトロニクス関連素材など様々な機能性素材を提供しております。幅広い分野の産業に、日本精化の製品が使われています。"
     ],
     [
-        "image" => "img/session4/img04.webp",
+        "image" => "images/section4/img04.webp",
         "alt" => "ハイジーン分野 ( Hygiene )",
         "label" => "ハイジーン分野 ( Hygiene )",
         "bg-label" => "#004EA2",
@@ -37,7 +37,7 @@ $data = [
 
 
 <section id="section4" class="relative z-0 w-full mx-auto bg-no-repeat bg-cover"
-         style="background-image: url('img/session4/bg.webp')">
+         style="background-image: url('images/section4/bg.webp')">
     <div class="max-w-[972px] mx-auto px-5 lg:px-0">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-y-8 gap-6 lg:gap-7 py-32">
             <!-- Beauty Care Card-->
@@ -61,7 +61,7 @@ $data = [
                             py-[11px] px-[41px] rounded-full text-lg font-bold transition-colors">
                             詳細はこちら
                             <span class="ml-1.5">
-                            <img src="img/icon/arrow-right.svg" alt="Arrow right" class="w-[11px] h-2 object-contain"/>
+                            <img src="images/icon/arrow-right.svg" alt="Arrow right" class="w-[11px] h-2 object-contain"/>
                         </span>
                         </button>
                     </div>
@@ -69,6 +69,5 @@ $data = [
             <?php endforeach; ?>
         </div>
     </div>
-
 
 </section>
