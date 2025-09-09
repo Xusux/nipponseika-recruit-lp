@@ -35,10 +35,22 @@ module.exports = {
       },
       keyframes: {
         slowJump: {
-          "0%": { transform: "translateY(0)" },
-          "40%": { transform: "translateY(-20px)" },
-          "80%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(0)" },
+          "0%, 100%": { transform: "translateY(0)" },
+          "30%": { transform: "translateY(-20px)" },
+          "50%": { transform: "translateY(-25px)" },
+          "70%": { transform: "translateY(-20px)" },
+        },
+        smallJumpPerson: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        moveLeft: {
+          "0%, 100%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(-10px)" },
+        },
+        moveRight: {
+          "0%, 100%": { transform: "translateX(0)" },
+          "50%": { transform: "translateX(10px)" },
         },
         fadeIn: {
           "0%": { opacity: "0" },
@@ -53,6 +65,9 @@ module.exports = {
         slowJump: "slowJump 2s ease-in-out infinite",
         fadeIn: "fadeIn 0.8s ease-in forwards",
         rotateText: "rotateText 10s linear infinite",
+        smallJumpPerson: "smallJumpPerson 1.5s ease-in-out infinite",
+        moveLeft: "moveLeft 1.5s ease-in-out infinite",
+        moveRight: "moveRight 1.5s ease-in-out infinite",
       },
     },
   },

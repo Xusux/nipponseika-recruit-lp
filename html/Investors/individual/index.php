@@ -19,6 +19,7 @@ function asset($path)
     <!-- Main -->
     <main class="w-full mx-auto">
         <?php include 'section1.php' ?>
+        <?php include 'section2.php' ?>
         <?php include 'section4.php' ?>
         <?php include 'section5.php' ?>
         <?php include 'section6.php' ?>
@@ -28,5 +29,5 @@ function asset($path)
 
 
 </body>
-
+<script src="./js/common.js"></script>
 </html>

@@ -35,7 +35,139 @@ $data = [
 ]
 ?>
 
+<section class="relative mt-20">
+    <div class="max-w-full mx-auto relative z-20">
+        <div class="relative">
+            <div class="max-w-[1140px] mx-auto text-center mt-20 relative">
+                <div id="circle" class="absolute z-50 hidden bg-white p-8 rounded-[50px] shadow-lg text-center pointer-events-none w-[26%] aspect-auto">
+                    <div class="flex justify-center gap-8">
+                        <h3 id="circle-title" class="font-bold text-[20px] text-left"></h3>
+                        <img id="circle-img" src="" alt="" class="mx-auto w-[32%] aspect-auto">
+                    </div>
+                    <div id="circle-content"
+                        class="text-[16px] whitespace-normal leading-relaxed"
+                        style="color: rgb(51, 216, 112);"></div>
+                </div>
+                <img src="<?= asset('html/investors/individual/images/section4/person2.webp') ?>"
+                    alt="ポインター"
+                    class="w-[8%] aspect-auto absolute top-[39%] left-[25%] cursor-pointer animate-moveLeft" />
 
+                <img src="<?= asset('html/investors/individual/images/section4/person1.webp') ?>"
+                    alt="ポインター"
+                    class="w-[6%] aspect-auto absolute top-[31%] left-[46%] cursor-pointer animate-moveRight" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/person3.webp') ?>"
+                    alt="ポインター"
+                    class="w-[10%] absolute top-[39%] left-[75%] cursor-pointer animate-smallJumpPerson" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/greenOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[45%] left-[3%] cursor-pointer pointer-target"
+                    data-color="33D870" data-title="エビ養殖用の飼料" data-content='["コレステロール"]'
+                    data-img="images/section4/hover1.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/blue.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[63%] left-[30%] cursor-pointer pointer-target"
+                    data-color="33D870" data-title="手指消毒剤" data-content='["アルボナース™"]'
+                    data-img="images/section4/hover2.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/blueOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[37%] left-[19%] cursor-pointer pointer-target"
+                    data-color="005BAA" data-title="サプリメント" data-content='["コレステロール"]'
+                    data-img="images/section4/hover3.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/blueOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[51%] left-[46%] cursor-pointer pointer-target"
+                    data-color="005BAA" data-title="ニップルクリームなどのベビーケア製品" data-content='["ラノリン"]'
+                    data-img="images/section4/hover4.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/pinkOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[19%] left-[21%] cursor-pointer pointer-target"
+                    data-color="F16E9C" data-title="スキンケア" data-content='["機能性油剤","リン脂質","コレステロール","ビタミンC誘導体","生理活性物質"]'
+                    data-img="images/section4/hover5.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/blue.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[19%] left-[26%] cursor-pointer pointer-target"
+                    data-color="1BA4DE" data-title="薬用ハンドソープ" data-content='["アルボース薬用水石鹸","iグリーン（バイオマスボトル）"]'
+                    data-img="images/section4/hover6.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/pink.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[10%] left-[46%] cursor-pointer pointer-target"
+                    data-color="F16E9C" data-title="ヘアケア" data-content='["機能性油剤","エルカラクトン","ラノリン","ラノリン誘導体"]'
+                    data-img="images/section4/hover7.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/pinkOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[12%] left-[54%] cursor-pointer pointer-target"
+                    data-color="F16E9C" data-title="クレンジング" data-content='["機能性油剤","多糖類"]'
+                    data-img="images/section4/hover8.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/blue.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[14%] left-[61%] cursor-pointer z-20 pointer-target"
+                    data-color="1BA4DE" data-title="抗炎症用の軟膏" data-content='["ラノリン"]'
+                    data-img="images/section4/hover9.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/blueOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[12%] left-[64%] cursor-pointer pointer-target"
+                    data-color="005BAA" data-title="医療用医薬品添加剤"
+                    data-content='["高純度リン脂質","機能性リン脂質","Presome™","Liposome","研究開発サポートサービス","高純度コレステロール","Liposome"]'
+                    data-img="images/section4/hover10.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/pink.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[13%] left-[75%] cursor-pointer pointer-target"
+                    data-color="F16E9C" data-title="メイクアップ製品"
+                    data-content='["機能性油剤","多糖類"]'
+                    data-img="images/section4/hover11.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/pink.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[16%] left-[78%] cursor-pointer z-20 pointer-target"
+                    data-color="F16E9C" data-title="メイクアップ製品"
+                    data-content='["機能性油剤","リン脂質","多糖類"]'
+                    data-img="images/section4/hover12.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/greenOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[43%] left-[85%] cursor-pointer z-20 pointer-target"
+                    data-color="33D870" data-title="ペロブスカイト太陽電池"
+                    data-content='["ペロブスカイト太陽電池正孔輸送材料"]'
+                    data-img="images/section4/hover13.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/greenOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[44%] left-[69%] cursor-pointer z-20 pointer-target"
+                    data-color="33D870" data-title="車体用防錆材"
+                    data-content='["ラノリン"]'
+                    data-img="images/section4/hover14.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/greenOpacity.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[28%] left-[62%] cursor-pointer z-20 pointer-target"
+                    data-color="33D870" data-title="ポリ袋"
+                    data-content='["脂肪酸アマイド"]'
+                    data-img="images/section4/hover15.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/green.webp') ?>"
+                    alt="ポインター"
+                    class="w-[4%] aspect-auto absolute top-[28%] left-[57%] cursor-pointer z-20 pointer-target"
+                    data-color="33D870" data-title="メガネ・サングラス・ゴーグルなど"
+                    data-content='["各種樹脂用モノマー・塩素化物","コーティング剤（NSC）"]'
+                    data-img="images/section4/hover15.webp" />
+
+                <img src="<?= asset('html/investors/individual/images/section4/bg-house.webp') ?>" alt="house" class="mx-auto cursor-pointer">
+            </div>
+        </div>
+    </div>
+</section>
 <section id="section4" class="relative z-0 w-full mx-auto bg-no-repeat bg-cover"
          style="background-image: url('images/section4/bg.webp')">
     <div class="max-w-[972px] mx-auto px-5 lg:px-0">
